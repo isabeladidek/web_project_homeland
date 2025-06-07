@@ -1,0 +1,87 @@
+.content {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.content__intro {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 12%;
+  margin-bottom: 10vh;
+  align-items: flex-end;
+  text-align: left;
+}
+
+.content__title {
+  font-family: "Inter";
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 54px;
+  line-height: 58px;
+}
+
+.content__blockquote {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 34px;
+  display: flex;
+  margin: 0%;
+}
+
+.content__cite-author {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.content__description {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+@media screen and (max-width: 1023px) {
+  .content__intro {
+    width: 100%;
+    margin: 0;
+    padding: 5%;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .content__title {
+    font-size: 45px;
+    line-height: 49px;
+  }
+
+  .content__cite-author {
+    padding-left: 60%;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .content__intro {
+    width: 100%;
+    margin: 0;
+    padding: 10% 5%;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .content__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .content__blockquote {
+    line-height: 30px;
+    padding: 5% 0 5%;
+  }
+  .content__cite-author {
+    padding: 0 0 5% 30%;
+  }
+}
