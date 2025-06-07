@@ -26,4 +26,4 @@ Tecnologias e Técnicas Utilizadas
 
 🌐 GitHub Pages
 
-[Acesse o projeto publicado aqui](https://SEU_USUARIO.github.io/nome-do-projeto)
+[Acesse o projeto publicado aqui](https://github.com/isabeladidek/web_project_homeland.git)
