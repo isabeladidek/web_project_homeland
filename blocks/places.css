@@ -1,7 +1,7 @@
 .cards {
 }
 
-.card {
+.places {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
@@ -14,7 +14,7 @@
   gap: 2%;
 }
 
-.card__title {
+.places__title {
   color: #fff;
   text-shadow: 0px 4px 8px rgba(0, 0, 0, 25%);
   font-size: 72px;
@@ -28,13 +28,13 @@
   flex-direction: column;
 }
 
-.card__artists {
+.places__artists {
   grid-area: artists;
   display: flex;
   flex-direction: column;
 }
 
-.card__info-title {
+.places__info-title {
   color: #aaa;
   text-shadow: 0px 4px 8px rgba(0, 0, 0, 25%);
   font-size: 12px;
@@ -44,7 +44,7 @@
   padding: 0;
 }
 
-.card__info-name {
+.places__info-name {
   color: #fff;
   text-shadow: 0px 4px 8px rgba(0, 0, 0, 25%);
   font-size: 18px;
@@ -54,31 +54,31 @@
   padding: 0;
 }
 
-.card__grid {
+.places__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr 2fr 1fr;
 }
 
-.card__image {
+.places__image {
   margin: 5% 5% 10% 0;
   max-width: 100%;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 75%);
   grid-area: image;
 }
 
-.card__description {
+.places__description {
   grid-area: description;
 }
 
-.card__text {
+.places__text {
   color: #fff;
   font-size: 18px;
   line-height: 1.63;
   text-shadow: 0px 4px 8px rgba(0, 0, 0, 25%);
 }
 
-.card__button {
+.places__button {
   color: #fff;
   background-image: linear-gradient(to right, #0278fe, #003a7b);
   text-shadow: 0px 4px 8px rgba(0, 0, 0, 25%);
@@ -94,23 +94,23 @@
 }
 
 @media screen and (min-width: 769px) {
-  .card__button:hover {
-    background-image: linear-gradient(
-      to right,
-      rgba(2, 120, 254, 0.25),
-      rgba(0, 58, 123, 0.25)
+  .places__button:hover {
+    background: linear-gradient(
+      90deg,
+      rgba(2, 120, 254, 0.25) 0%,
+      rgba(0, 58, 123, 0.25) 99.98%
     );
     border: 2px solid rgb(0, 0, 0);
     box-sizing: border-box;
   }
 
-  .card__image:hover {
+  .places__image:hover {
     filter: brightness(50%);
   }
 }
 
 @media screen and (max-width: 768px) {
-  .card {
+  .places {
     grid-template-columns: 1fr 1fr;
     padding: 4% 2% 4% 3%;
     margin: 10% auto;
@@ -118,16 +118,16 @@
     column-gap: 4%;
   }
 
-  .card__title {
+  .places__title {
     font-size: 42px;
     line-height: 46px;
   }
 
-  .card__artists {
+  .places__artists {
     padding-bottom: 6%;
   }
 
-  .card__info-title {
+  .places__info-title {
     color: #aaa;
     font-size: 12px;
     font-weight: 100;
@@ -136,24 +136,24 @@
     padding: 0;
   }
 
-  .card__info-name {
+  .places__info-name {
     font-size: 18px;
     letter-spacing: 1.2;
     margin: 0;
   }
 
-  .card__image {
+  .places__image {
     width: auto;
     height: auto;
     margin: auto;
   }
 
-  .card__text {
+  .places__text {
     font-size: 16px;
     line-height: 1.63;
   }
 
-  .card__button {
+  .places__button {
     font-size: 18px;
     max-width: 100%;
     padding: 4%;
@@ -163,7 +163,7 @@
 }
 
 @media screen and (max-width: 544px) {
-  .card {
+  .places {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(16, auto);
     grid-template-areas:
@@ -177,39 +177,39 @@
     padding: 0;
   }
 
-  .card__title {
+  .places__title {
     font-size: 32px;
     line-height: 35px;
     padding: 5%;
   }
 
-  .card__info-title {
+  .places__info-title {
     font-size: 12px;
     padding: 5% 5% 2% 5%;
     margin: 0;
   }
 
-  .card__info-name {
+  .places__info-name {
     font-size: 18px;
     line-height: 22px;
     padding: 0 0 0 5%;
   }
 
-  .card__image {
+  .places__image {
     width: 100vw;
     height: auto;
     padding: 0;
     margin: auto;
   }
 
-  .card__text {
+  .places__text {
     font-size: 16px;
     line-height: 163%;
     padding: 0 5%;
     margin: 7% 0;
   }
 
-  .card__button {
+  .places__button {
     font-size: 14px;
     padding: 14px 16px;
     width: fit-content;
