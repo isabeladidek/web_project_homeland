@@ -77,7 +77,7 @@
 
 .places__button {
   color: #fff;
-  background-image: linear-gradient(to right, #0278fe, #003a7b);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
   text-shadow: 0px 4px 8px rgba(0, 0, 0, 25%);
   border-radius: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 25%);
@@ -128,14 +128,14 @@
     color: #aaa;
     font-size: 12px;
     font-weight: 100;
-    letter-spacing: 12%;
+    letter-spacing: 1.2px;
     margin: auto 0 3%;
     padding: 0;
   }
 
   .places__info-name {
     font-size: 18px;
-    letter-spacing: 1.2;
+    letter-spacing: 1.2px;
     margin: 0;
   }
 
